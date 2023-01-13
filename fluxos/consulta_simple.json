@@ -1,0 +1,53 @@
+[
+    {
+        "id": "3470cc223ee79ac4",
+        "type": "tab",
+        "label": "consultaAPI",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a0fd2eedd172d602",
+        "type": "inject",
+        "z": "3470cc223ee79ac4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "72c9b2d9eeec322d",
+        "type": "debug",
+        "z": "3470cc223ee79ac4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 610,
+        "y": 180,
+        "wires": []
+    }
+]
